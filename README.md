@@ -1,4 +1,8 @@
+```markdown
 
+## 📌 Overview
+A Python-based **Face Recognition Attendance System** built using **OpenCV** and **Haar cascades**, designed to automatically detect and mark attendance in real time via webcam feed.
+---
 # Face based attendance system using python and openCV
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
@@ -21,18 +25,105 @@
 - it will create `.csv` file for every subject you enter and seperate every `.csv` file accoriding the subject
 - You can view the attendance after clicking `View Attendance` button. It will show record in tabular format.
 
-### Screenshots
 
-### Simple UI
-<img src='https://github.com/Patelrahul4884/Attendance-Management-system-using-face-recognition/blob/master/Project%20Snap/1.PNG'>
 
-### While taking Image
-![Screenshot (103)](https://user-images.githubusercontent.com/26384517/86820502-c7f44500-c0a6-11ea-9530-6317ec2059d9.png)
+---
 
-## While taking Attendance
-![Screenshot (91)](https://user-images.githubusercontent.com/26384517/86821090-9465ea80-c0a7-11ea-9680-777923663d0c.png)
+## 🚀 Features
+- Real-time face detection and recognition  
+- Attendance logging with timestamp (Name, Date, Time)  
+- Save logs in **CSV or Excel** formats  
+- Lightweight and easy to use  
 
-## Attendance in tabular format 
-<img src='https://github.com/Patelrahul4884/Attendance-Management-system-using-face-recognition/blob/master/Project%20Snap/7.PNG'>
+---
 
-## Just follow me and Star⭐ my repository
+## 🛠️ Tech Stack
+- **Python 3**  
+- **OpenCV**  
+- **NumPy**  
+- **Pandas**  
+
+---
+
+## 📂 Project Structure
+```
+
+Face-Attendance-System/
+│-- dataset/               # Captured face images
+│-- trainer/               # Trained model files
+│-- Attendance.csv         # Attendance log file
+│-- takeImage.py           # Capture face images
+│-- trainImage.py          # Train recognition model
+│-- attendance.py          # Run attendance system
+│-- requirements.txt       # Dependencies
+│-- README.md              # Documentation
+
+````
+
+---
+
+## 📥 Installation & Download
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/trivedisahil91/Face-attendance-system.git
+````
+
+Or you can [Download ZIP](https://github.com/trivedisahil91/Face-attendance-system/archive/refs/heads/main.zip)
+
+2. **Navigate to the project folder**
+
+   ```bash
+   cd Face-attendance-system
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the scripts**
+
+   * Capture face images:
+
+     ```bash
+     python takeImage.py
+     ```
+   * Train the model:
+
+     ```bash
+     python trainImage.py
+     ```
+   * Mark attendance:
+
+     ```bash
+     python attendance.py
+     ```
+
+---
+
+## 📊 Sample Output
+
+| Name  | Date       | Time     |
+| ----- | ---------- | -------- |
+| Sahil | 2025-09-02 | 10:15:23 |
+| Ravi  | 2025-09-02 | 10:16:45 |
+
+---
+
+## 🤝 Author
+
+👤 **Sahil Trivedi**
+
+* GitHub: [@trivedisahil91](https://github.com/trivedisahil91)
+* LinkedIn: [Sahil Trivedi](https://linkedin.com/in/your-profile)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+```
+---
