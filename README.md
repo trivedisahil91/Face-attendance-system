@@ -1,10 +1,12 @@
-## 📌 Overview
-A Python-based **Face Recognition Attendance System** built using **OpenCV** and **Haar cascades**, designed to automatically detect and mark attendance in real time via webcam feed.
----
 # Face based attendance system using python and openCV
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/) 
+
+
+## 📌 Overview
+A Python-based **Face Recognition Attendance System** built using **OpenCV** and **Haar cascades**, designed to automatically detect and mark attendance in real time via webcam feed.
+---
 
 ### What steps you have to follow??
 - Download or clone my Repository to your device
