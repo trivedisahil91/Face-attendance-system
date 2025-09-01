@@ -3,7 +3,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 
-
+---
 ## 📌 Overview
 A Python-based **Face Recognition Attendance System** built using **OpenCV** and **Haar cascades**, designed to automatically detect and mark attendance in real time via webcam feed.
 ---
@@ -75,13 +75,13 @@ Or you can [Download ZIP](https://github.com/trivedisahil91/Face-attendance-syst
 
    ```bash
    cd Face-attendance-system
-   ```
+```
 
 3. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
-   ```
+```
 
 4. **Run the scripts**
 
