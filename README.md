@@ -75,7 +75,7 @@ Or you can [Download ZIP](https://github.com/trivedisahil91/Face-attendance-syst
 
    ```bash
    cd Face-attendance-system
-```
+````
 
 3. **Install dependencies**
 
