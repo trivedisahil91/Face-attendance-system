@@ -69,10 +69,7 @@ Face-Attendance-System/
    git clone https://github.com/trivedisahil91/Face-attendance-system.git
 ````
 
-Or you can [Download ZIP](https://github.com/trivedisahil91/Face-attendance-system/archive/refs/heads/main.zip)
-
 2. **Navigate to the project folder**
-
    ```bash
    cd Face-attendance-system
 ````
@@ -81,7 +78,7 @@ Or you can [Download ZIP](https://github.com/trivedisahil91/Face-attendance-syst
 
    ```bash
    pip install -r requirements.txt
-```
+````
 
 4. **Run the scripts**
 
@@ -89,17 +86,17 @@ Or you can [Download ZIP](https://github.com/trivedisahil91/Face-attendance-syst
 
      ```bash
      python takeImage.py
-     ```
+````
    * Train the model:
 
      ```bash
      python trainImage.py
-     ```
+````
    * Mark attendance:
 
      ```bash
      python attendance.py
-     ```
+````
 
 ---
 
